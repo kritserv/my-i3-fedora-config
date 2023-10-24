@@ -36,7 +36,7 @@ alias cls="clear"
 alias dir="ls -al"
 
 ## Programming
-alias py="python3.11"
+alias py="python"
 
 ## Guide
 alias shb="echo '#!usr/bin/bash'"
