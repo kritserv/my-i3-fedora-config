@@ -30,13 +30,20 @@ unset rc
 ## System
 alias edit="nano"
 alias addalias="edit .bashrc"
+alias shut="sudo shutdown now"
+alias copy="xclip -selection clipboard"
 
 ## Navigation
 alias cls="clear"
 alias dir="ls -al"
+alias open="xdg-open"
 
 ## Programming
 alias py="python"
+alias dockerdesktop="systemctl --user start docker-desktop"
 
 ## Guide
 alias shb="echo '#!usr/bin/bash'"
+alias guidevenv="echo 'virtualenv --python=/usr/bin/python3.11 venv'"
+alias guidenetstat="echo 'sudo netstat -nlp | grep PORT'"
+
