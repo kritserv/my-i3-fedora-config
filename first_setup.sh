@@ -3,6 +3,9 @@
 # Setup touchpad
 sudo mv 30-touchpad.conf /etc/X11/xorg.conf.d/
 
+# Setup local fonts directory
+mkdir ~/.local/share/fonts/
+
 # Installation
 
 # dnf upgrade
