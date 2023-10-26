@@ -35,11 +35,8 @@ alias addconfig="edit ~/.config/i3/config"
 alias addcompton="edit ~/.config/compton.conf"
 alias addstatus="edit ~/.i3status.conf"
 alias addmicro="edit ~/.config/micro/colorschemes/mycolor.micro"
-<<<<<<< HEAD
 alias comptonrun="compton &"
 alias comptonstop="killall compton"
-=======
->>>>>>> 25322f5acbd6b79d437443afca6fff373e55603a
 alias open="xdg-open"
 alias shut="sudo shutdown now"
 alias copy="xclip -selection clipboard"
