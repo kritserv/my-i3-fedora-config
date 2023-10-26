@@ -10,6 +10,7 @@ mkdir ~/.local/share/fonts/
 
 # dnf upgrade
 sudo dnf upgrade --refresh -y
+sudo dnf makecache --refresh -y
 
 # micro editor
 sudo dnf -y install micro
@@ -41,3 +42,14 @@ sudo dnf -y install docker-desktop-4.24.2-x86_64.rpm
 
 # python pip
 sudo dnf -y install python3-pip
+
+# compton
+sudo dnf -y install libXcomposite-devel libXdamage-devel libXrandr-devel libXinerama-devel libconfig-devel mesa-libGL-devel dbus-devel asciidoc
+sudo dnf -y install make
+sudo yum install pcre-devel -y
+sudo dnf -y install gcc-c++
+git clone https://github.com/tryone144/compton
+cd compton
+make
+make -B docs
+sudo make install
