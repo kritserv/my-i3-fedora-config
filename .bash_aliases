@@ -1,7 +1,7 @@
 #====== Aliases =======
+
 ## System
 alias edit="micro"
-#alias edit="nano"
 alias addalias="edit ~/.bash_aliases"
 alias addbashrc="edit ~/.bashrc"
 alias addconfig="edit ~/.config/i3/config"
@@ -25,6 +25,7 @@ alias py="python"
 alias dockerdesktop="systemctl --user start docker-desktop"
 
 ## Guide
-alias shb="echo '#!usr/bin/bash'"
-alias guidevenv="echo 'virtualenv --python=/usr/bin/python3.11 venv'"
-alias guidenetstat="echo 'sudo netstat -nlp | grep PORT'"
+alias shb="echo && echo '#!usr/bin/bash' && echo && echo '#!usr/bin/bash' | copy"
+alias fastfeh="echo && echo 'feh --bg-fill $HOME/Pictures/backgrounds/' && echo && echo 'feh --bg-fill $HOME/Pictures/backgrounds/' | copy"
+alias guidevenv="echo && echo 'virtualenv --python=/usr/bin/python3.11 venv' && echo && echo 'virtualenv --python=/usr/bin/python3.11 venv' | copy"
+alias guidenetstat="echo && echo 'sudo netstat -nlp | grep PORT' && echo && echo 'sudo netstat -nlp | grep' | copy"
