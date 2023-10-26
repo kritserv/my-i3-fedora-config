@@ -20,6 +20,9 @@ sudo dnf makecache --refresh -y
 sudo dnf -y install micro
 #micro --version
 
+# gnome tweak
+sudo dnf -y install gnome-tweaks
+
 # microsoft edge
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge -y
