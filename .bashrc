@@ -35,6 +35,7 @@ alias addconfig="edit ~/.config/i3/config"
 alias open="xdg-open"
 alias shut="sudo shutdown now"
 alias copy="xclip -selection clipboard"
+alias shot="import screenshot.png"
 
 ## Navigation
 alias cls="clear"
