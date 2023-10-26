@@ -179,6 +179,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+#compton
+exec compton &
+
 # class                 border  bground text    indicator child_border
 client.focused          #FFCC33 #FFCC33 #302724 #83CAFA   #FFCC33
 client.focused_inactive #8C8C8C #4C4C4C #FFFFFF #4C4C4C   #8C8C8C
@@ -217,4 +220,4 @@ gaps inner 10
 gaps outer 5
 
 # Wallpaper
-exec_always feh --bg-scale $HOME/Pictures/backgrounds/wallpaper.jpg
+exec_always feh --bg-fill $HOME/Pictures/backgrounds/wallpaper.jpg

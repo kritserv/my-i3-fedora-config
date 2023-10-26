@@ -6,6 +6,10 @@ sudo mv 30-touchpad.conf /etc/X11/xorg.conf.d/
 # Setup local fonts directory
 mkdir ~/.local/share/fonts/
 
+# Load wallpaper
+mkdir ~/Pictures/backgrounds
+curl -o ~/Pictures/backgrounds/wallpaper.jpg "https://images.unsplash.com/photo-1495476479092-6ece1898a101"
+
 # Installation
 
 # dnf upgrade
