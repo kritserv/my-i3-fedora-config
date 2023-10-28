@@ -1,6 +1,6 @@
 # My fedora i3 settings
 
-##Installation
+## Installation
 
 ```
 cd && git clone https://github.com/kritserv/my-i3-fedora-config.git && chmod +x my-i3-fedora-config/first_setup && bash my-i3-fedora-config/first_setup.sh
