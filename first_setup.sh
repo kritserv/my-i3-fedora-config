@@ -65,3 +65,4 @@ sudo dnf -y install steam
 # ruby
 sudo dnf -y install ruby
 sudo dnf -y install rubygem-{irb,rake,rbs,rexml,typeprof,test-unit} ruby-bundled-gems
+sudo dnf -y install ruby-devel
