@@ -66,3 +66,7 @@ sudo dnf -y install steam
 sudo dnf -y install ruby
 sudo dnf -y install rubygem-{irb,rake,rbs,rexml,typeprof,test-unit} ruby-bundled-gems
 sudo dnf -y install ruby-devel
+
+# curses gem
+sudo dnf -y install ncurses-devel
+gem install curses
