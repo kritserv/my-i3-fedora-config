@@ -62,3 +62,6 @@ sudo make install
 sudo dnf -y install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf -y install steam
 
+# ruby
+sudo dnf -y install ruby
+sudo dnf -y install rubygem-{irb,rake,rbs,rexml,typeprof,test-unit} ruby-bundled-gems
