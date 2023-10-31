@@ -48,6 +48,13 @@ sudo dnf -y install docker-desktop-4.24.2-x86_64.rpm
 sudo dnf -y install python3-pip
 #pip -V
 
+pip install virtualenv
+pip install pandas
+pip install flask
+pip install django
+pip install pywebview[qt]
+pip install scikit-learn
+
 # compton
 sudo dnf -y install libXcomposite-devel libXdamage-devel libXrandr-devel libXinerama-devel libconfig-devel mesa-libGL-devel dbus-devel asciidoc
 sudo dnf -y install make
