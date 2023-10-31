@@ -41,8 +41,8 @@ sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 
 # docker desktop
 sudo dnf -y install gnome-terminal
-curl https://desktop.docker.com/linux/main/amd64/docker-desktop-4.24.2-x86_64.rpm
-sudo dnf -y install docker-desktop-4.24.2-x86_64.rpm
+curl https://desktop.docker.com/linux/main/amd64/docker-desktop-4.24.2-x86_64.rpm --output docker-desktop.rpm
+sudo dnf -y install docker-desktop.rpm
 
 # python pip
 sudo dnf -y install python3-pip
