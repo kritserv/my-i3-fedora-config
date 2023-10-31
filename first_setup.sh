@@ -46,6 +46,7 @@ sudo dnf -y install docker-desktop-4.24.2-x86_64.rpm
 
 # python pip
 sudo dnf -y install python3-pip
+#pip -V
 
 # compton
 sudo dnf -y install libXcomposite-devel libXdamage-devel libXrandr-devel libXinerama-devel libconfig-devel mesa-libGL-devel dbus-devel asciidoc
@@ -57,6 +58,7 @@ cd compton
 make
 make -B docs
 sudo make install
+#compton --version
 
 # steam
 sudo dnf -y install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -66,7 +68,14 @@ sudo dnf -y install steam
 sudo dnf -y install ruby
 sudo dnf -y install rubygem-{irb,rake,rbs,rexml,typeprof,test-unit} ruby-bundled-gems
 sudo dnf -y install ruby-devel
+#ruby --version
 
 # curses gem
 sudo dnf -y install ncurses-devel
 gem install curses
+#gem --version
+
+# go
+curl https://go.dev/dl/go1.21.3.linux-amd64.tar.gz --output go.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go.tar.gz
+#go version
