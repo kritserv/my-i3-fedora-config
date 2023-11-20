@@ -2,6 +2,7 @@
 
 ## System
 alias edit="micro"
+alias e="edit"
 alias addalias="edit ~/.bash_aliases"
 alias addbashrc="edit ~/.bashrc"
 alias addconfig="edit ~/.config/i3/config"
@@ -25,8 +26,9 @@ alias py="python"
 alias dockerdesktop="systemctl --user start docker-desktop"
 
 ## Guide
-alias shb="echo && echo '#!/usr/bin/bash' && echo && echo '#!/usr/bin/bash' | copy"
+alias shb="echo && echo '#!usr/bin/bash' && echo && echo '#!usr/bin/bash' | copy"
 alias fastfeh="echo && echo 'feh --bg-fill $HOME/Pictures/backgrounds/' && echo && echo 'feh --bg-fill $HOME/Pictures/backgrounds/' | copy"
 alias guidevenv="echo && echo 'virtualenv --python=/usr/bin/python3.11 venv' && echo && echo 'virtualenv --python=/usr/bin/python3.11 venv' | copy"
 alias guidenetstat="echo && echo 'sudo netstat -nlp | grep PORT' && echo && echo 'sudo netstat -nlp | grep' | copy"
 alias guidebrightness="echo && echo 'brightnessctl set 0% - 100%' && echo && echo 'brightnessctl set ' | copy"
+alias guideaddapp="echo && echo 'touch new file and make executeable in this path $HOME/.local/bin' && echo && echo '#!usr/bin/bash' && echo 'cd ~/Desktop' && echo './AppName.appimage &' && echo "
