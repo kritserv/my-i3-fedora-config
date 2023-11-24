@@ -1,0 +1,8 @@
+[Scheme]
+Name=NewColor
+ColorForeground=#a1a1a1
+ColorBackground=#1f1b1b
+TabActivityColor=#878349
+ColorCursor=#5eada5
+ColorSelection=#848550
+ColorPalette=#000000;#6e0000;#085c00;rgb(170,85,0);rgb(0,0,170);rgb(170,0,170);rgb(0,138,138);rgb(170,170,170);rgb(85,85,85);rgb(255,85,85);rgb(85,255,85);rgb(196,160,0);rgb(85,85,255);rgb(255,85,255);rgb(68,204,204);rgb(255,255,255)
