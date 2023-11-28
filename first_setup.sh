@@ -54,8 +54,11 @@ pip install flask
 pip install django
 pip install pywebview[qt]
 pip install scikit-learn
+pip install kivy
 
 sudo dnf -y install python3-tkinter
+
+sudo dnf -y install java-latest-openjdk-devel
 
 
 # compton
