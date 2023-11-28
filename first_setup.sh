@@ -55,6 +55,9 @@ pip install django
 pip install pywebview[qt]
 pip install scikit-learn
 
+sudo dnf -y install python3-tkinter
+
+
 # compton
 sudo dnf -y install libXcomposite-devel libXdamage-devel libXrandr-devel libXinerama-devel libconfig-devel mesa-libGL-devel dbus-devel asciidoc
 sudo dnf -y install make
