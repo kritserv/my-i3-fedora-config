@@ -221,3 +221,6 @@ gaps outer 5
 
 # Wallpaper
 exec_always feh --bg-fill $HOME/Pictures/backgrounds/wallpaper.jpg
+
+# Extra shortkeys
+bindsym $mod+t exec thunar
