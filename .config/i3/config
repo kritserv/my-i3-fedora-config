@@ -223,4 +223,9 @@ gaps outer 5
 exec_always feh --bg-fill $HOME/Pictures/backgrounds/wallpaper.jpg
 
 # Extra shortkeys
-bindsym $mod+t exec thunar
+bindsym $mod+ctrl+t exec thunar
+bindsym $mod+ctrl+e exec microsoft-edge-stable
+bindsym $mod+ctrl+g exec gdevelop
+bindsym $mod+ctrl+d exec dbbrowser
+bindsym $mod+ctrl+k exec krita
+bindsym $mod+ctrl+s exec steam
