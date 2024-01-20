@@ -92,3 +92,6 @@ gem install curses
 curl https://go.dev/dl/go1.21.3.linux-amd64.tar.gz --output go.tar.gz
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go.tar.gz
 #go version
+
+# codeblock
+sudo dnf -y install codeblocks
