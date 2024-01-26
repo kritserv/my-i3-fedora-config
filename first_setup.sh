@@ -95,3 +95,7 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go.tar.gz
 
 # codeblock
 sudo dnf -y install codeblocks
+
+# vlc
+sudo dnf -y install vlc
+sudo dnf -y install mediainfo-gui mediainfo x264-libs x264 --allowerasing
