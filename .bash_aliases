@@ -26,6 +26,7 @@ alias dir="ls -al"
 ## Programming
 alias py="python"
 alias dockerdesktop="systemctl --user start docker-desktop"
+alias ghub="cd ~/Documents/ghub && ls"
 
 ## Guide
 alias shb="echo && echo '#!usr/bin/bash' && echo && echo '#!usr/bin/bash' | copy"
