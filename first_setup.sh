@@ -1,7 +1,5 @@
 #!/usr/bin/bash
 
-su
-
 # Setup touchpad
 mv my-i3-fedora-config/30-touchpad.conf /etc/X11/xorg.conf.d/
 
@@ -105,3 +103,8 @@ dnf -y install codeblocks
 # vlc
 dnf -y install vlc
 dnf -y install mediainfo-gui mediainfo x264-libs x264 --allowerasing
+
+# sublime text
+rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+dnf -y install sublime-text
