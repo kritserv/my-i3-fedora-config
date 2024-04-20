@@ -62,6 +62,8 @@ pip install pygame-ce
 
 dnf -y install python3-tkinter
 
+dnf -y install python3-pillow python3-pillow-tk
+
 dnf -y install java-latest-openjdk-devel
 
 
