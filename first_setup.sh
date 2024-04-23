@@ -16,6 +16,9 @@ curl -o ~/Pictures/backgrounds/wallpaper.jpg "https://images.unsplash.com/photo-
 dnf upgrade --refresh -y
 dnf makecache --refresh -y
 
+# xkill
+dnf -y install xkill
+
 # micro editor
 dnf -y install micro
 #micro --version
