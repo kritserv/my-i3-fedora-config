@@ -111,15 +111,15 @@ bindsym $mod+a focus parent
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: MSEdge"
-set $ws2 "2: Editor/Terminal"
-set $ws3 "3: Thunar"
-set $ws4 "4: Others"
+set $ws2 "2: Terminal/Code"
+set $ws3 "3: Test"
+set $ws4 "4: Other"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10"
+set $ws10 "10: Thunar"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -228,4 +228,4 @@ bindsym $mod+ctrl+e exec microsoft-edge-stable
 bindsym $mod+ctrl+g exec gdevelop
 bindsym $mod+ctrl+d exec dbbrowser
 bindsym $mod+ctrl+k exec krita
-bindsym $mod+ctrl+s exec steam
+bindsym $mod+ctrl+s exec subl
