@@ -231,7 +231,7 @@ bar {
 #gaps outer 1
 
 # Wallpaper
-exec_always feh --bg-fill $HOME/Pictures/backgrounds/lucky_bubble_wallpaper.png
+exec_always feh --bg-fill $HOME/Pictures/backgrounds/wallpaper.jpg
 
 # Extra shortkeys
 bindsym $mod+ctrl+t exec thunar
