@@ -47,6 +47,9 @@ dnf -y install gnome-terminal
 curl https://desktop.docker.com/linux/main/amd64/docker-desktop-4.24.2-x86_64.rpm --output docker-desktop.rpm
 dnf -y install docker-desktop.rpm
 
+# python devel
+dnf -y install python3-devel
+
 # python pip
 dnf -y install python3-pip
 #pip -V
@@ -62,6 +65,7 @@ pip install Pillow
 pip install bs4
 pip install tensorflow
 pip install pygame-ce
+pip install misaka
 
 dnf -y install python3-tkinter
 
