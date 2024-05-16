@@ -65,7 +65,6 @@ pip install Pillow
 pip install bs4
 pip install tensorflow
 pip install pygame-ce
-pip install misaka
 
 dnf -y install python3-tkinter
 
@@ -85,6 +84,9 @@ make
 make -B docs
 make install
 #compton --version
+
+pip install misaka
+pip install moderngl
 
 # steam
 dnf -y install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
