@@ -18,6 +18,10 @@ su
 . my-i3-fedora-config/first_setup.sh
 ```
 
-wallpaper: <a href="https://unsplash.com/photos/green-leafed-plant-in-closeup-shot-CBh4D3l0EwM">unsplash link</a>
+```
+reboot
+```
 
-<img src="preview.png">
+wallpaper: <a href="https://unsplash.com/photos/calm-sea-under-clear-blue-sky-A-8glbZbeKw">unsplash link</a>
+
+<img src="preview.jpg">

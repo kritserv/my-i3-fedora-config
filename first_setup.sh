@@ -8,7 +8,7 @@ mkdir ~/.local/share/fonts/
 
 # Load wallpaper
 mkdir ~/Pictures/backgrounds
-curl -o ~/Pictures/backgrounds/wallpaper.jpg "https://images.unsplash.com/photo-1495476479092-6ece1898a101"
+curl -o "~/Pictures/backgrounds/wallpaper.jpg" "https://images.unsplash.com/photo-1565876202421-ef255602d0e9?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;dl=unleashed-agency-A-8glbZbeKw-unsplash.jpg"
 
 # Installation
 
@@ -119,3 +119,12 @@ dnf -y install mediainfo-gui mediainfo x264-libs x264 --allowerasing
 rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
 dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
 dnf -y install sublime-text
+
+# fastfetch
+dnf -y install fastfetch
+
+# skype
+mv my-i3-fedora-config/microsoft-skype.repo /etc/yum.repos.d/
+dnf -y install distribution-gpg-keys
+rpm --import /usr/share/distribution-gpg-keys/skype/SKYPE-GPG-KEY
+dnf -y install skypeforlinux

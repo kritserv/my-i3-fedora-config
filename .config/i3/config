@@ -227,8 +227,8 @@ bar {
 }
 
 # Gaps
-#gaps inner 3
-#gaps outer 1
+gaps inner 7
+gaps outer 5
 
 # Wallpaper
 exec_always feh --bg-fill $HOME/Pictures/backgrounds/wallpaper.jpg

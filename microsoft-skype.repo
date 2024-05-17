@@ -1,0 +1,11 @@
+[microsoft-skype]
+name=Microsoft Skype
+baseurl=https://repo.skype.com/rpm/stable/
+gpgkey=file:///usr/share/distribution-gpg-keys/skype/SKYPE-GPG-KEY
+enabled=1
+
+[microsoft-skype-unstable]
+name=Microsoft Skype Unstable
+baseurl=https://repo.skype.com/rpm/unstable/
+gpgkey=file:///usr/share/distribution-gpg-keys/skype/SKYPE-GPG-KEY
+enabled=0
