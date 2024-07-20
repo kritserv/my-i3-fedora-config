@@ -3,6 +3,7 @@
 ## System
 alias edit="micro"
 alias e="edit"
+alias unzip="7za x"
 alias addalias="echo -e 'edit ~/.bash_aliases' && edit ~/.bash_aliases"
 alias addbashrc="echo -e 'edit ~/.bashrc' && edit ~/.bashrc"
 alias addconfig="echo -e 'edit ~/.config/i3/config' && edit ~/.config/i3/config"
@@ -16,7 +17,7 @@ alias comptonrun="compton &"
 alias comptonstop="killall compton"
 alias open="echo -e 'xdg-open' && xdg-open"
 alias shut="sudo shutdown now"
-alias copy="echo -e 'xclip -selection clipboard' && xclip -selection clipboard"
+alias copy="xclip -selection clipboard"
 alias shot="echo -e 'import screenshot.png' && import screenshot.png"
 alias upd="echo -e 'sudo dnf up' && sudo dnf up"
 

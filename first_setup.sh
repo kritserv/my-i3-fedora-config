@@ -8,13 +8,16 @@ mkdir ~/.local/share/fonts/
 
 # Load wallpaper
 mkdir ~/Pictures/backgrounds
-curl -o "~/Pictures/backgrounds/wallpaper.jpg" "https://images.unsplash.com/photo-1565876202421-ef255602d0e9?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;dl=unleashed-agency-A-8glbZbeKw-unsplash.jpg"
+curl "https://images.unsplash.com/photo-1565876202421-ef255602d0e9?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;dl=unleashed-agency-A-8glbZbeKw-unsplash.jpg" -o "~/Pictures/backgrounds/wallpaper.jpg"
 
 # Installation
 
 # dnf upgrade
 dnf upgrade --refresh -y
 dnf makecache --refresh -y
+
+#7z
+dnf -y install p7zip.x86_64
 
 # xkill
 dnf -y install xkill
@@ -78,7 +81,7 @@ dnf -y install libXcomposite-devel libXdamage-devel libXrandr-devel libXinerama-
 dnf -y install make
 yum install pcre-devel -y
 dnf -y install gcc-c++
-git clone https://github.com/tryone144/compton
+git clone https://github.com/kritserv/compton.git
 cd compton
 make
 make -B docs
